@@ -172,3 +172,10 @@ ul.links {
   color: white;
   border-style: solid;
 }
+
+.footer {
+  padding: 24px 0;
+  background-color: #1F2937;
+  text-align: center;
+  color: #F9FAF8;
+}
