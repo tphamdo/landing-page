@@ -44,7 +44,7 @@ ul.links {
 .first-row {
   width: 900px;
   display: flex;
-  padding: 20px;
+  padding: 50px 20px;
   gap: 20px;
 }
 
@@ -71,4 +71,49 @@ ul.links {
   font-weight: extra-bold;
   font-size: 48px;
   color: #F9FAF8;
+}
+
+.second-container {
+  display: flex;
+  justify-content: center;
+}
+
+.second-row {
+  width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 0;
+}
+
+.information-header {
+  font-size: 36px;
+  font-weight: extra-bold;
+  color: #1F2937;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.image-blocks {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.image-block {
+  width: 150px;
+}
+
+.image-block p {
+  width: 100%;
+  text-align: center;
+}
+
+.image-block .box {
+  border: 3px solid #3882F6;
+  border-radius:10px;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 8px;
 }
