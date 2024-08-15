@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   font-family: Roboto;
+  box-sizing: border-box;
 }
 
 .header-container {
@@ -44,8 +45,9 @@ ul.links {
 .first-row {
   width: 900px;
   display: flex;
-  padding: 50px 20px;
+  padding: 50px 0;
   gap: 20px;
+  /* border: 2px red solid; */
 }
 
 .first-row .first-col {
@@ -83,7 +85,8 @@ ul.links {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 40px 0;
+  padding: 40px 0 80px 0;
+  /* border: 2px red solid; */
 }
 
 .information-header {
@@ -116,4 +119,29 @@ ul.links {
   width: 150px;
   height: 150px;
   margin-bottom: 8px;
+}
+
+.third-container {
+  display: flex;
+  justify-content: center;
+  background-color: #E5E7EB;
+}
+
+.third-row {
+  width: 900px;
+  padding: 80px;
+  /* border: 2px red solid; */
+}
+
+.quote {
+  font-weight: light;
+  font-style: italic;
+  font-size: 36px;
+  color: #1F2937;
+}
+
+.quote-author {
+  text-align: right;
+  font-size: 24px;
+  font-weight: bold;
 }
